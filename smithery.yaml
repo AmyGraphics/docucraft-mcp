@@ -1,0 +1,20 @@
+name: docucraft-mcp
+displayName: DocuCraft - Automated PDF Invoices, Legal Contracts & Resume ATS Engine MCP
+description: Universal business document automation engine for Cursor, Claude & Windsurf. Generates print-ready HTML/PDF invoices with tax calculations, drafts legally structured NDAs and freelance service agreements, optimizes resumes for ATS algorithms, and formats executive markdown reports.
+category: developer-tools
+homepage: https://github.com/AmyGraphics/docucraft-mcp
+repository: https://github.com/AmyGraphics/docucraft-mcp
+icon: https://raw.githubusercontent.com/AmyGraphics/docucraft-mcp/main/icon.png
+keywords:
+  - invoice-generator
+  - pdf-generator
+  - legal-contracts
+  - nda-generator
+  - resume-ats
+  - document-automation
+  - cursor
+  - claude
+  - windsurf
+startCommand:
+  type: http
+  url: https://docucraft-api.agentweb-hub.workers.dev/mcp
